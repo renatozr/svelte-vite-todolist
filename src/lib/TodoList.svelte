@@ -61,7 +61,7 @@
     .todo-list {
         padding: 20px;
         border-radius: 1px;
-        max-height: 450px;
+        max-height: 500px;
         overflow: auto;
         background-color: variables.$secondaryColor;
         p {

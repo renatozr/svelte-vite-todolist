@@ -7,9 +7,12 @@
     box-sizing: border-box;
 }
 
+a {
+    color: inherit;
+}
+
 input:focus {
     outline: 0;
-
 }
 
 body {
