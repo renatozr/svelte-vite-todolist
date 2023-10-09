@@ -41,7 +41,7 @@
         disabled={isSubmitButtonDisabled}
         class:cursor-not-allowed={isSubmitButtonDisabled}
     >
-        <ButtonIcon />
+        <svelte:component this={ButtonIcon} />
     </button>
 </form>
 

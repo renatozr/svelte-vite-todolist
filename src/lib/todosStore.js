@@ -2,7 +2,7 @@
 import { writable } from 'svelte/store';
 import { v4 as uuid } from 'uuid';
 
-const storedTodos = JSON.parse(localStorage.getItem('todos')) || [
+const defaultTodos = [
   {
     id: uuid(),
     title: 'Study for 4 hours',
@@ -19,6 +19,8 @@ const storedTodos = JSON.parse(localStorage.getItem('todos')) || [
     isCompleted: true,
   },
 ];
+
+const storedTodos = JSON.parse(localStorage.getItem('todos')) || defaultTodos;
 const todos = writable(storedTodos);
 todos.subscribe((value) => {
   localStorage.setItem('todos', JSON.stringify(value));
