@@ -1,0 +1,25 @@
+{
+  "name": "svelte-vite-todo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "sass": "^1.69.0",
+    "svelte": "^4.0.5",
+    "svelte-preprocess": "^5.0.4",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "svelte-icons": "^2.1.0",
+    "uuid": "^9.0.1"
+  }
+}

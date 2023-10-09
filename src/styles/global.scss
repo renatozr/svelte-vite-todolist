@@ -1,0 +1,19 @@
+@use "./src/styles/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 0;
+
+}
+
+body {
+    background-color: variables.$backgroundColor;
+    color: variables.$textColor;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
