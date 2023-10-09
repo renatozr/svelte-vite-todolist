@@ -5,17 +5,12 @@ import { v4 as uuid } from 'uuid';
 const defaultTodos = [
   {
     id: uuid(),
-    title: 'Study for 4 hours',
+    title: 'Meditate for 10 minutes',
     isCompleted: true,
   },
   {
     id: uuid(),
-    title: 'Go to the gym',
-    isCompleted: false,
-  },
-  {
-    id: uuid(),
-    title: 'Meditate for 30 minutes',
+    title: 'Study for exam',
     isCompleted: true,
   },
 ];
